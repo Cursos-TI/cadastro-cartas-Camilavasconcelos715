@@ -33,5 +33,16 @@ int main(){
     printf("Digite o codigo da carta da cidade: \n");
     scanf(" %c", &codigo_da_carta);
 
+     // 2. Exibir os dados inseridos pelo usuario de forma organizada
+
+    printf("\n--- Dados da carta 1 ---\n");
+    printf("Nome da cidade: %s\n", nome);
+    printf("Estado da cidade: %s\n", estado_da_cidade);
+    printf("Populacao da cidade: %d\n", populacao);
+    printf("Numero de pontos turisticos da cidade: %d\n", numero_de_pontos_turisticos);
+    printf("Area da cidade: %.2f\n", area);
+    printf("PIB da cidade: %.2f\n", pib);
+    printf("Codigo da carta da cidade: %c\n", codigo_da_carta);
+
 
 } 
