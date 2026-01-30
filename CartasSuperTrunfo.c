@@ -75,5 +75,7 @@ int main(){
     printf("Area da cidade: %.2f\n", area);
     printf("PIB da cidade: %.2f\n", pib);
     printf("Codigo da carta da cidade: %c\n", codigo_da_carta);
+  return 0;
+  
 
 } 
